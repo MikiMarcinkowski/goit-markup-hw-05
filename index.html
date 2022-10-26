@@ -63,7 +63,7 @@
           <h1 class="main-header-title">
             EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
           </h1>
-          <button class="main-button" type="button">Zamów usługe</button>
+          <button class="main-button" type="button" data-modal-open>Zamów usługe</button>
         </section>
       </div>
     </div>
@@ -133,13 +133,13 @@
           <h2 class="section-title">Czym się zajmujemy</h2>
 
           <ul class="work-specification">
-            <li>
+            <li >
               <img
                 src="./images/computer.jpg"
                 alt="hand on keybord"
                 width="370"
                 height="294"
-              />
+              /><div class="work-title"><p class="photo-title">aplikacje komputerowe</p></div>
             </li>
             <li>
               <img
@@ -147,7 +147,7 @@
                 alt="remote control"
                 width="370"
                 height="294"
-              />
+              /><div class="work-title"><p class="photo-title">aplikacje komputerowe</p></div>
             </li>
             <li>
               <img
@@ -155,7 +155,7 @@
                 alt="tablet"
                 width="370"
                 height="294"
-              />
+              /><div class="work-title"><p class="photo-title">aplikacje komputerowe</p></div>
             </li>
           </ul>
         </section>
@@ -472,6 +472,14 @@
         </div>
       </div>
     </footer>
-<Script src="./modal.js" ></Script>
+
+    <div class="backdrop is-hiden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button> 
+      </div>
+    </div>
+
+
+<script src="./modal.js" ></script>
   </body>
 </html>
