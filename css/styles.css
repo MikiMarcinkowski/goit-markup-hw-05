@@ -662,7 +662,7 @@ h2 {
   background-color: var(--white-color);
 }
 
-/* portfolio cubic-bezier */
+/*========== portfolio cubic-bezier============== */
 .item-content {
   position: relative;
   overflow: hidden;
@@ -690,6 +690,8 @@ h2 {
 .portfolio-item:hover .item-content-style {
   transform: translate(0%, -100%);
 }
+
+/*========== END of portfolio cubic-bezier============== */
 
 .photo-title {
   text-transform: uppercase;
