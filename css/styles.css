@@ -694,6 +694,10 @@ h2 {
 }
 
 /*========== END of portfolio cubic-bezier============== */
+.work-photo {
+  display: block;
+ 
+}
 
 .photo-title {
   text-transform: uppercase;
@@ -711,8 +715,9 @@ h2 {
   width: 100%;
   height: 70px;
   position: relative;
-  bottom: 20.6%;
-  left: 0;
+   left: 0;
+  transform: translateY(-100%);
+  
 }
 
 .nav-item {
