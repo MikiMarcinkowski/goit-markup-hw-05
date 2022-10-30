@@ -97,6 +97,7 @@ a {
 .header-contact:focus {
   color: var(--blue-color);
   stroke: var(--blue-color);
+  --color3: var(--blue-color)
 }
 
 .footer-style {
