@@ -733,14 +733,14 @@ h2 {
   border-radius: 2px;
   background-color: var(--secondary-color);
   position: absolute;
-  bottom: -123%;
+  bottom: -128%;
   overflow: hidden;
   z-index: -1;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
-.nav1::after {
+.agency-nav::after {
   content: "";
   display: block;
   width: 100%;
@@ -748,12 +748,12 @@ h2 {
   border-radius: 2px;
   background-color: var(--blue-color);
   position: absolute;
-  bottom: -123%;
+  bottom: -128%;
   overflow: visible;
   z-index: 2;
 }
 
-.nav2::after {
+.portfolio-nav::after {
   content: "";
   display: block;
   width: 100%;
@@ -761,7 +761,7 @@ h2 {
   border-radius: 2px;
   background-color: var(--blue-color);
   position: absolute;
-  bottom: -123%;
+  bottom: -128%;
   overflow: visible;
   z-index: 2;
 }
