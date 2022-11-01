@@ -563,8 +563,7 @@ fill: var(--secondary-grey)
 .client-logo-shield:hover,
 .client-logo-shield:focus {
   fill: var(--blue-color);
-
-  transition: 250ms;
+ 
   box-shadow: 0 0 1px 1px var(--blue-color);
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
