@@ -97,7 +97,7 @@ a {
 .header-contact:focus {
   color: var(--blue-color);
   stroke: var(--blue-color);
-  --color3: var(--blue-color)
+  fill: var(--blue-color)
 }
 
 .footer-style {
@@ -537,6 +537,12 @@ h2 {
   text-align: center;
   align-items: center;
 }
+
+/* .client-logo {
+fill: var(--secondary-grey)
+
+} */
+
 .client-logo-description {
   display: flex;
   flex-direction: row;
@@ -544,21 +550,19 @@ h2 {
 }
 .client-logo-shield {
   margin: 0;
-
   width: 170px;
   height: 92px;
   display: flex;
-
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 1px 1px var(--secondary-grey);
-
   border-radius: 4px;
+  fill: var(--secondary-grey);
 }
 
 .client-logo-shield:hover,
 .client-logo-shield:focus {
-  --color5: var(--blue-color);
+  fill: var(--blue-color);
 
   transition: 250ms;
   box-shadow: 0 0 1px 1px var(--blue-color);
@@ -619,7 +623,7 @@ h2 {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  --color4: var(--secondary-color);
+  fill: var(--secondary-color);
 }
 
 .social-shield:hover,
@@ -636,7 +640,7 @@ h2 {
   background-color: var(--secondary-color);
   justify-content: center;
   align-items: center;
-  --color4: var(--secondary-grey);
+  fill: var(--secondary-grey);
   cursor: pointer;
   border-radius: 50%;
   transition: 250ms;
@@ -646,7 +650,7 @@ h2 {
 .team-social-icon:hover,
 .team-social-icon:focus {
   background-color: var(--blue-color);
-  --color4: var(--secondary-color);
+  fill: var(--secondary-color);
 }
 
 .team-social {
