@@ -722,13 +722,9 @@ h2 {
   transform: translate(0%, -100%);
 }
 .portfolio-item:focus-within .item-content-style {
- 
   transform: translate(0%, -100%);
   outline: none;
- 
 }
-
-
 
 /*========== END of portfolio cubic-bezier============== */
 .work-photo {
